@@ -13,7 +13,7 @@
     cursor: pointer;
 }
 .btn-solid{
-    background-color: #89f8da;
+    background-color: var(--btn-color);
 }
 .btn-outline{
     border: 2px solid #0dafa0;
@@ -68,7 +68,7 @@ CSS FOR TOGGLE BTN
     left:9px;
     height: 26px;
     width: 26px;
-    background-color: #26e4eb;
+    background-color: var(--btn-color);
     border-radius: 50%;
     transition: 0.4s;
 }
@@ -103,7 +103,7 @@ CSS FOR FLOATING BTN
     font-size: 1rem;
     border-radius: 50%;
     color:#159673;
-    background-color:#89f8da;
+    background-color:var(--btn-color);
     z-index: 1;
     position: fixed;
     bottom: 1rem;
