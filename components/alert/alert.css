@@ -20,20 +20,20 @@
     position: relative;
 }
 .alert-primary{
-    background-color: #7FD2E6;
+    background-color: var(--alert-primary);
     color: #1c316b;
 }
 .alert-success{
-    background-color: #84f1c9;
+    background-color: var(--success-color);
     color: #0a4d35;
 }
 .alert-danger{
     color:  #ee2626;
-    background-color: #fcc5c5;
+    background-color: var(--danger-color);
 }
 .alert-warning{
     color: #b16501;
-    background-color: #ffe7c5;
+    background-color: var(--warning-color);
 }
 /* 
 CSS FOR OULINE ALERT
