@@ -1,2 +1,2 @@
 # Component-Library 
-all sytle sheets and design which makes your UI faster.
+all style sheets and design which makes your UI faster.
