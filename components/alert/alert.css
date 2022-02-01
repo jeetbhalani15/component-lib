@@ -1,0 +1,74 @@
+
+@import "/reset.css";
+.alert-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* max-width: 100%; */
+    /* height: auto; */
+    align-items: center;
+    gap: 30%;
+}
+
+.alert-box{
+    border-radius: 0.3rem;
+    padding: 1rem 3rem 1rem 1rem;
+    font-size: 1rem;
+    box-sizing: border-box;
+    width: 100%;
+    margin: 1rem 0;
+    position: relative;
+}
+.alert-primary{
+    background-color: #7FD2E6;
+    color: #1c316b;
+}
+.alert-success{
+    background-color: #84f1c9;
+    color: #0a4d35;
+}
+.alert-danger{
+    color:  #ee2626;
+    background-color: #fcc5c5;
+}
+.alert-warning{
+    color: #b16501;
+    background-color: #ffe7c5;
+}
+/* 
+CSS FOR OULINE ALERT
+*/  
+.alert-primary-outline{
+    background-color: #ffffff;
+    color: #1c316b;
+    border: 2px solid blue;
+}
+.alert-danger-outline{
+    color: #ee2626;
+    background-color: #ffffff;
+    border: 2px solid red;
+}
+.alert-success-outline{
+    background-color: #ffffff;
+    color: #03b311;
+    border: 2px solid green;
+}
+.alert-warning-outline{
+    background-color: #ffffff;
+    color: #b16501;
+    border: 2px solid orange;
+}
+.alert-btn{
+    display: flex;
+    position: relative;
+    align-items: center;
+}
+.close-btn{
+    font-weight: 600;
+    background: none;
+    border: none;
+    position: absolute;
+    right: 1%;
+    /* top: 36%; */
+    bottom: 36%;
+}
