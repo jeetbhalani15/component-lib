@@ -22,6 +22,20 @@
   --warning-color: #ff9800;
   --info-color : #181868;
   --default-hover : #D1D5DB;
+   /* 
+  avatar colors
+  */
+  --avtar-shadow:black;
+  --avtar-status-online:green;
+  --avtar-status-offline:rgb(196, 42, 42);
+  --avtar-status-busy:rgb(185, 139, 13);
+  --avtar-status-oncall:rgb(39, 196, 207);
+  /* 
+  badges colors
+  */
+  --badge-bg-color:#ff264f;
+  --badge-text-color:white;
+  --badge-text-color2:black;
 }
 
 body {
