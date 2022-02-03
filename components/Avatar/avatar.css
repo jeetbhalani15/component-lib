@@ -16,6 +16,7 @@ CSS FOR AVTAR
     font-size: 1rem;
     
 }
+
 .avtar-flex{
     display: flex;
     align-items: center;
@@ -23,10 +24,7 @@ CSS FOR AVTAR
     gap: 40px;
 }
 .avtar-txt{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: grey;
+    color: var(--avtar-shadow);
     background-color: rgb(250, 250, 250);
 }
 .avtar-lg-size{
@@ -83,12 +81,9 @@ CSS FOR AVTAR WITH BADGES
     padding: 2px;
     border-radius: 50%;
     border: 2px solid rgb(3, 3, 3);
-    display: flex;
-    justify-content: center;
-    align-items: center;
     position: absolute;
     font-size: .75em;
-     box-sizing: border-box;
+    box-sizing: border-box;
     
     }
 .avtar-status-online{
