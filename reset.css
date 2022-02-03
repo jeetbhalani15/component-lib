@@ -36,6 +36,18 @@
   --badge-bg-color:#ff264f;
   --badge-text-color:white;
   --badge-text-color2:black;
+   /* 
+  CARDS COLORS
+  */
+  --card-bg-color:#f14b6a;
+  --card-hover:rgb(255, 136, 146);
+  --card-text:white;
+  --card-badge:#fc0000;
+  --card-tag:red;
+  --card-btn:#89f8da;
+  --card-hr-bg:#292727;
+  --card-vr-overlay: #ffd7d7;
+  --card-vr-float-icon:#fcfbf8;
 }
 
 body {
